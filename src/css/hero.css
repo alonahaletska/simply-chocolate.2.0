@@ -329,12 +329,12 @@
 
 .hero-modal {
     position: absolute;
-    top: calc(15%);
+    top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 
-    width: 311px;
-    height: 95%;
+    min-width: 295px;
+    height: 85%;
     max-height: 994px;
     padding: 32px 24px;
 
@@ -346,13 +346,25 @@
     transition-delay: 150ms;
 }
 
+@media only screen and (min-width: 375px) {
+  .hero-modal {
+      min-width: 311px;
+  }
+}
+
 @media only screen and (min-width: 768px) {
     .hero-modal {
-        top: calc((50% 529px) / 2);
+        min-width: 609px;
+        max-height: 1058px;
+        padding: 48px;
+        overflow-y: hidden;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .hero-modal {
         width: 609px;
         max-height: 1058px;
-        padding: 48px auto;
-        overflow-x: hidden;
     }
 }
 
@@ -422,8 +434,14 @@
 
 .hero-modal-list {
     list-style-type: none;
-    width: 263px;
+    width: 240px;
     margin-bottom: 32px;
+}
+
+@media only screen and (min-width: 375px) {
+  .hero-modal-list {
+      width: 263px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -436,7 +454,7 @@
 }
 
 .hero-modal-item {
-    width: 263px;
+    width: 240px;
     height: 85px;
     padding: 8px 16px;
 
@@ -446,6 +464,12 @@
 
     justify-content: space-between;
     align-items: center;
+}
+
+@media only screen and (min-width: 375px) {
+  .hero-modal-item {
+      width: 263px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -503,11 +527,16 @@
 
 /* HERO MODAL FORM */
 
-/* .hero-modal-form {
-    width: 263px;
+
     flex-wrap: wrap;
     flex-direction: column;
     align-items: flex-start;
+}
+
+@media only screen and (min-width: 375px) {
+  .hero-modal-form {
+      width: 263px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
