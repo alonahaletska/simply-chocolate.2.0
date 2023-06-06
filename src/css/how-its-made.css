@@ -73,7 +73,7 @@
 }
 @media only screen and (min-width: 1200px) {
   .technique-container{
-    padding: 0 32px;
+    padding: 0;
   }
   .technique-wrapper {
     display: flex;
