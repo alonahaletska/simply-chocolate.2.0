@@ -10,11 +10,6 @@
         gap:22px;
     }
     
-    .advantages-title {
-        position: absolute;
-        visibility: hidden;
-    }
-    
     .advantages-circle-icon{
     display: flex;
     width:62px;
