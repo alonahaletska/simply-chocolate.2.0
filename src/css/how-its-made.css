@@ -55,6 +55,9 @@
   .technique-container {
     padding: 0 77px;
   }
+  .technique-title{
+    margin-bottom: 50px;
+  }
   .technique-description {
     padding: 32px;
   }
