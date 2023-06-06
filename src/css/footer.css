@@ -295,3 +295,9 @@
     letter-spacing: -0.02em;
     color: var(--secondary-txt-cl);
 }
+
+
+.footer-nav-link:hover,
+.footer-nav-link:focus{
+color: var(--accent-txt-cl);
+}
