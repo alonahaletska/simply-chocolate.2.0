@@ -1,17 +1,14 @@
 const swiper = new Swiper('.swiper', {
   // Optional parameters
   direction: 'horizontal',
-  loop: true,
+  
+  // loop: true,
 
   // If we need pagination
   pagination: {
-    el: '.swiper-pagination-our-product',
-  },
+        clickable: true, // что-бы сделать пагинацию кликабельной
 
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    el: '.swiper-pagination-our-product',
   },
 
   // And if we need scrollbar
@@ -19,16 +16,10 @@ const swiper = new Swiper('.swiper', {
     el: '.swiper-scrollbar',
   },
 
-  slidesPerView: 1,
-  spaceBetween: 10,
-  pagination: {
-    el: '.swiper-pagination-our-product',
-    clickable: true, // что-бы сделать пагинацию кликабельной
-  },
-  loop: true,
   breakpoints: {
     375: {
       slidesPerView: 1,
+        spaceBetween: 10,
     },
     768: {
       slidesPerView: 2.5,
@@ -40,5 +31,4 @@ const swiper = new Swiper('.swiper', {
     },
   },
 
-  
 });
