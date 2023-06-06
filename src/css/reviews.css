@@ -51,7 +51,6 @@
 }
 
 .slides-card {
-
     display: flex;
     text-align: center;
     justify-content: center;
@@ -205,11 +204,16 @@ line-height: 1.17;
             margin-bottom: 0;
         }
     
+        .swiper-reviews {
+            padding-top:91px;
+        }
+
         .reviews-sec{
             padding-bottom: 128px;
         }
         .reviews-btn {
             font-size: 18px;
+            margin-top:50px;
         }
     
         .slides-card {
