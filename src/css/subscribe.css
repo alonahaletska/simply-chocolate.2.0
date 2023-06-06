@@ -27,9 +27,6 @@
   
   .subscribe-text
   {
-      font-family: 'Montserrat';
-      font-style: normal;
-      font-weight: 400;
       font-size: 14px;
       line-height: 1.29;
       text-align: center;
@@ -82,12 +79,7 @@
       height: 56px;
     }  
     }
-  
-    .subscribe-text {
-        
-        width: 467px;
-  
-    }
+
   
     .subscribe-btn {
       
@@ -130,10 +122,7 @@
           background-position: center;
           background-size: cover;
         }
-      
-        .subscribe-text {
-          width: 326px;
-        }
+    
       
         .subscribe-btn {
             width: 128px
