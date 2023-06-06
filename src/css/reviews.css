@@ -1,55 +1,55 @@
-
 .reviews {
-margin-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 @media only screen and (min-width: 768px) {
-.reviews{
-margin-bottom: 49px;
+  .reviews {
+    margin-bottom: 49px;
   }
 }
 
 .title-chocolate {
-    color: var(--accent-txt-cl);}
+  color: var(--accent-txt-cl);
+}
 
 .reviews-btn {
-    min-width: 222px;
-    height: 50px;
-    border: 1px solid;
-    border-color: var(--accent-txt-cl);
+  min-width: 222px;
+  height: 50px;
+  border: 1px solid;
+  border-color: var(--accent-txt-cl);
 
-    font-weight: 600;
-    font-size: 14px;
-  
-    display: block;
-    margin: auto;
-    margin-bottom: 72px;
-    transform: background-color var(--cubic);
+  font-weight: 600;
+  font-size: 14px;
+
+  display: block;
+  margin: auto;
+  margin-bottom: 72px;
+  transform: background-color var(--cubic);
 }
 
 @media only screen and (min-width: 768px) {
-    .reviews-btn {
-        font-size: 18px;
-        margin-top: 50px;
-        margin-bottom: 100px;
-    }
+  .reviews-btn {
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
-    .reviews-btn {
-        font-size: 18px;
-        margin-bottom: 128px;
-    }
+  .reviews-btn {
+    font-size: 18px;
+    margin-bottom: 128px;
+  }
 }
 
 .reviews-btn:hover {
-    background-color: var(--accent-txt-cl);
-    color: var(--secondary-txt-cl);
+  background-color: var(--accent-txt-cl);
+  color: var(--secondary-txt-cl);
 }
 
 .reviews-btn:focus {
-    background-color: var(--accent-txt-cl);
-    color: var(--secondary-txt-cl);
+  background-color: var(--accent-txt-cl);
+  color: var(--secondary-txt-cl);
 }
 
 /**
@@ -59,63 +59,57 @@ margin-bottom: 49px;
 */
 
 .slides-card {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+  box-sizing: border-box;
 
-    box-sizing: border-box;
+  margin-bottom: 20px;
 
-margin-bottom: 20px;
+  position: relative;
 
-    position: relative;
+  max-width: 360px;
+  height: 200px;
 
-    max-width: 360px;
-    height: 200px;
-
-
-    background: #ffffff;
-    border: 1px solid rgba(17, 17, 17, 0.1);
-    box-shadow: 0px 9.04932px 26.5717px rgba(215, 228, 249, 0.25);
-    border-radius: 15px;
-
+  background: #ffffff;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  box-shadow: 0px 9.04932px 26.5717px rgba(215, 228, 249, 0.25);
+  border-radius: 15px;
 }
 
 @media only screen and (min-width: 768px) {
-    .slides-card {
-        padding-left: 16px;
-        padding-right: 16px;
-        margin-bottom: 31px;
-    }
+  .slides-card {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 31px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
-    .slides-card {
-        padding-left: 24px;
-        padding-right: 24px;
-        margin-bottom: 31px;
-    }
+  .slides-card {
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-bottom: 31px;
+  }
 }
 
 .reviews-img {
-position: absolute;
-top: -42px;
-margin-bottom: 18px;
-
+  position: absolute;
+  top: -42px;
+  margin-bottom: 18px;
 }
 
 .reviews-names {
-margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 
-
 .slides-txt {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /**
@@ -124,49 +118,45 @@ margin-bottom: 24px;
   |============================
 */
 
-.swiper{
-overflow: visible !important;
+.cards-pagination {
+  display: block;
+  margin: auto;
 }
 
-
-.cards-pagination{
-display: block;
-margin: auto;
+.swiper-horizontal
+  > .swiper-pagination-bullets
+  .swiper-pagination-bullet-active,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet-active {
+  box-sizing: border-box;
+  width: 28px !important;
+  height: 13px;
+  border-radius: 100px;
+  background: #fd9222;
 }
 
-
-.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet-active,
-.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet-active{
-
-box-sizing: border-box;
-width: 28px !important;
-height: 13px;
-border-radius: 100px;
-background: #fd9222;}
-
-.swiper-pagination-bullet{
-width: 13px !important;
-height: 13px !important;
+.swiper-pagination-bullet {
+  width: 13px !important;
+  height: 13px !important;
 }
 
 .cards-pagination {
-position: static;
-text-align: center;
+  position: static;
+  text-align: center;
 }
 
 .swiper-wrapper {
-margin-bottom: 20px;
-}
-
-
-@media only screen and (min-width: 768px) {
-    .my-swiper-wrapper {
-        gap: 16px;
-    }
+  margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 768px) {
-    .my-swiper-wrapper {
-        gap: 28px;
-    }
-} 
+  .my-swiper-wrapper {
+    gap: 16px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .my-swiper-wrapper {
+    gap: 28px;
+  }
+}
