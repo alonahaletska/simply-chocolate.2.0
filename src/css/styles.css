@@ -1,6 +1,7 @@
 @import url('./reset.css');
 @import url('./header.css');
 @import url('./hero.css');
+@import url('./modal-buy-now.css');
 @import url('./advantages.css');
 @import url('./unique-components.css');
 @import url('./how-its-made.css');
@@ -16,7 +17,7 @@
   /* Font */
   --font-family: 'Montserrat', sans-serif;
   /* Background */
-  --general-bg-cl: #e2e2e2;
+  --general-bg-cl: #fafafa;
   --main-bg-cl: #ffffff;
   --secondary-bg-cl: #1e1823;
   --accent-bg-cl: #fd9222;
