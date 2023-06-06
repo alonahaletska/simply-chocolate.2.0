@@ -46,14 +46,16 @@ body {
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: var(--main-txt-cl);
+  background: #fafafa;
 }
 
 .container {
   /* Basic styles */
   min-width: 320px;
-  max-width: 375px;
+  /* max-width: 375px; */
   padding: 0 20px;
   margin: 0 auto;
+  
 
   /* outline: 2px solid red; */
 }
@@ -74,7 +76,6 @@ body {
 
 .section {
   padding-top: 72px;
-  background: #fafafa;
 }
 
 @media only screen and (min-width: 768px) {
