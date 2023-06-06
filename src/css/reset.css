@@ -52,7 +52,7 @@ body {
 .container {
   /* Basic styles */
   min-width: 320px;
-  /* max-width: 375px; */
+  max-width: 375px;
   padding: 0 20px;
   margin: 0 auto;
   
