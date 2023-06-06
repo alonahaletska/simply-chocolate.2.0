@@ -1,5 +1,5 @@
 
-import 'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js';
+
 // підключення бургер меню
 import './mobile-menu.js';
 // підключення buy now
@@ -13,3 +13,4 @@ import './modal-review.js';
 import './reviews.js';
 // Підключення свайперу
 import './our-products-swiper.js';
+import 'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js';
