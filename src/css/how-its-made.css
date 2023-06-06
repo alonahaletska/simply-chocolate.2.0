@@ -7,8 +7,7 @@
 .technique-img {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
   border-radius: 15px;
-  width: 335px;
-  height: 500px;
+  height: 100%;
 }
 .technique-img-wrapper {
   position: relative;
@@ -29,15 +28,17 @@
   border-radius: 15px;
   padding: 20px 14px;
 }
-
 .technique-description-title {
   font-size: 18px;
   font-weight: 600;
   line-height: 1.33;
   margin-bottom: 20px;
 }
-
-.technique-description-item::before {
+.technique-description-item{
+  position: relative;
+}
+.technique-description-text::before {
+  position: absolute;
   content: '';
   display: inline-block;
   background-color: var(--list-bg-cl);
@@ -47,7 +48,9 @@
   height: 8px;
   left: 0px;
   top: 5px;
-  margin-right: 8px;
+}
+.technique-description-text{
+  margin-left: 16px;
 }
 .technique-description-item:not(:last-child) {
   margin-bottom: 18px;
@@ -56,26 +59,25 @@
   .technique-container {
     padding: 0 77px;
   }
+  .technique-title {
+    margin-bottom: 50px;
+    font-size: 24px;
+    line-height: 1.17;
+  }
   .technique-description {
     padding: 32px;
   }
   .technique-description-title {
     max-width: 350px;
   }
-  .technique-img {
-    width: 614px;
-    height: 400px;
-  }
 }
-
 @media only screen and (min-width: 1200px) {
+  .technique-container{
+    padding: 0 32px;
+  }
   .technique-wrapper {
     display: flex;
     gap: 20px;
-  }
-  .technique-img {
-    width: 600px;
-    height: 400px;
   }
   .technique-img-wrapper {
     margin-bottom: 0;

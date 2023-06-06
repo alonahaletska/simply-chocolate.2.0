@@ -8,22 +8,67 @@
         <svg class="icon-play" width="44" height="44">
           <use href="./img/icons.svg#icon-play"></use>
         </svg>
-        <img
-          class="technique-img"
-          srcset="
-            img/section-how-it's-made/mobile/image_335.jpg    335w,
-            img/section-how-it's-made/tablet/image_614.jpg    614w,
-            img/section-how-it's-made/desktop/image_600.jpg   600w,
-            img/section-how-it's-made/mobile/image_670.jpg    670w,
-            img/section-how-it's-made/tablet/image_1228.jpg  1228w,
-            img/section-how-it's-made/desktop/image_1200.jpg 1200w
-          "
-          sizes="(min-width:1200px) 600px, (min-width:768px) 614px,
-        (min-width:375px) 335px, 100vw "
-          src="img/section-how-it's-made/desktop/image_335.jpg"
-          alt="cooking_chocolate"
-          loading="lazy"
-        />
+        <picture>
+          <!-- Desktop -->
+          <source
+            media="(min-width: 1200px )"
+            srcset="
+              /img/section-how-made/desktop/image_desk@1x.webp 1x,
+              /img/section-how-made/desktop/image_desk@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 1200px )"
+            srcset="
+              /img/section-how-made/desktop/image_desk@1x.jpg 1x,
+              /img/section-how-made/desktop/image_desk@2x.jpg 2x
+            "
+            type="image/jpg"
+          />
+          <!-- Tablet-->
+          <source
+            media="(min-width: 768px )"
+            srcset="
+              /img/section-how-made/tablet/image_tab@1x.webp 1x,
+              /img/section-how-made/tablet/image_tab@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 768px )"
+            srcset="
+              /img/section-how-made/tablet/image_tab@1x.jpg 1x,
+              /img/section-how-made/tablet/image_tab@2x.jpg 2x
+            "
+            type="image/jpg"
+          />
+          <!-- Mobile-->
+          <source
+            media="(min-width: 375px)"
+            srcset="
+              /img/section-how-made/mobile/image_mob@1x.webp 1x,
+              /img/section-how-made/mobile/image_mob@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 375px)"
+            srcset="
+              /img/section-how-made/mobile/image_mob@1x.jpg      1x,
+              /img/section-how-made/mobile/image_mob@2x.webp.jpg 2x
+            "
+            type="image/jpg"
+          />
+          <img
+            class="technique-img"
+            src="/img/section-how-it's-made/desktop/image_tab@1x.jpg"
+            alt="cooking_chocolate"
+            loading="lazy"
+            width="614"
+            height="400"
+          />
+        </picture>
       </div>
       <div class="technique-description">
         <h3 class="technique-description-title">
@@ -31,22 +76,33 @@
         </h3>
         <ul class="technique-description-list">
           <li class="technique-description-item">
-            Heat the milk in a saucepan without bringing it to a boil. Add sugar
-            and cocoa powder.
+            <p class="technique-description-text">
+              Heat the milk in a saucepan without bringing it to a boil. Add
+              sugar and cocoa powder.
+            </p>
           </li>
           <li class="technique-description-item">
-            At the same time, prepare a water bath. Melt the butter on it.
+            <p class="technique-description-text">
+              At the same time, prepare a water bath. Melt the butter on it.
+            </p>
           </li>
           <li class="technique-description-item">
-            "Mix" the milk mixture and already liquid butter. Mix thoroughly
-            with a silicone spatula so that the mass becomes uniform and silky.
+            <p class="technique-description-text">
+              "Mix" the milk mixture and already liquid butter. Mix thoroughly
+              with a silicone spatula so that the mass becomes uniform and
+              silky.
+            </p>
           </li>
           <li class="technique-description-item">
-            Heat the mixture over low heat, letting it barely boil.
+            <p class="technique-description-text">
+              Heat the mixture over low heat, letting it barely boil.
+            </p>
           </li>
           <li class="technique-description-item">
-            Pour the chocolate into special containers (can be replaced with ice
-            molds). Allow to cool and harden.
+            <p class="technique-description-text">
+              Pour the chocolate into special containers (can be replaced with
+              ice molds). Allow to cool and harden.
+            </p>
           </li>
         </ul>
       </div>
