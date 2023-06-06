@@ -333,8 +333,8 @@
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 
-    width: 100vw;
-    height: 95%;
+    min-width: 295px;
+    height: 85%;
     max-height: 994px;
     padding: 32px 24px;
 
@@ -348,16 +348,16 @@
 
 @media only screen and (min-width: 375px) {
   .hero-modal {
-      width: 311px;
-      overflow-x: hidden;
+      min-width: 311px;
   }
 }
 
 @media only screen and (min-width: 768px) {
     .hero-modal {
-        width: 609px;
+        min-width: 609px;
         max-height: 1058px;
         padding: 48px;
+        overflow-y: hidden;
     }
 }
 
