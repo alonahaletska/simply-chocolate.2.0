@@ -83,6 +83,7 @@
       line-height: 1.17;
       width: 378px;
       height: 56px;
+      margin-bottom: 24px;
     }  
     }
   
@@ -111,13 +112,7 @@
         background-size: cover;
       }
   
-      .subscribe-title {
-        font-size: 24px;
-        width: 378px;
-        height: 56px;
-        margin-bottom: 24px;
-      }
-  
+       
       .subscribe-text {
         width: 467px;
       }
