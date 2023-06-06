@@ -301,7 +301,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     height: 100%;
 
     opacity: 1;
@@ -329,11 +329,11 @@
 
 .hero-modal {
     position: absolute;
-    top: 50%;
+    top: calc(15%);
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 
-    max-width: 311px;
+    width: 311px;
     height: 95%;
     max-height: 994px;
     padding: 32px 24px;
@@ -348,7 +348,8 @@
 
 @media only screen and (min-width: 768px) {
     .hero-modal {
-        max-width: 609px;
+        top: calc((50% 529px) / 2);
+        width: 609px;
         max-height: 1058px;
         padding: 48px auto;
         overflow-x: hidden;
@@ -598,10 +599,9 @@
 }
 
 .hero-modal-number-wrapper {
-    padding: 4px 20px 4px 0;
+    padding: 4px 20px 4px 8px;
     border: none;
     border-right: 1.5px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 1.5px 0px 0px rgba(0, 0, 0, 0.1);
 
     align-items: center;
     justify-content: space-between;
@@ -628,6 +628,10 @@
 .hero-modal-input-email {
     width: 100%;
     margin-bottom: 18px;
+}
+
+.hero-modal-number-icon {
+    margin-right: 8px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -690,6 +694,8 @@
     padding: 12px 28px;
     background-color: var(--accent-bg-cl);
     border: none;
+
+    transition: color var(--cubic), background-color 250ms var(--cubic);
 }
 
 @media only screen and (min-width: 768px) {
