@@ -189,6 +189,12 @@
         margin-right: 188px;
     }
 
+    .logo-header
+    {
+       width: 24px;
+       height: 24px;
+    }
+
     .logo-accent {
         font-size: 18px;
         line-height: 1.1;
