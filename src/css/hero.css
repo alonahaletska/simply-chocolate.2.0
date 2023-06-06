@@ -690,6 +690,8 @@
     padding: 12px 28px;
     background-color: var(--accent-bg-cl);
     border: none;
+
+    transition: color var(--cubic), background-color 250ms var(--cubic);
 }
 
 @media only screen and (min-width: 768px) {
