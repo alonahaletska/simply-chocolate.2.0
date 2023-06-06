@@ -182,6 +182,14 @@
     color: var(--secondary-txt-cl);
 
 }
+.footer-link-contact:hover,
+.footer-link-contact:focus{
+    color: var(--accent-txt-cl);
+}
+
+
+
+
 
 
 
