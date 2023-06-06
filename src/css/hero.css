@@ -282,8 +282,10 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vw;
+    /* width: 100vw;
+    height: 100vw; */
+    width: 100%;
+    height: 100%;
 
     opacity: 1;
     visibility: visible;
@@ -293,13 +295,6 @@
     backdrop-filter: blur(1px);
     z-index: 100;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-@media only screen and (min-width: 768px) {
-  .hero-backdrop {
-      width: 100%;
-      height: 100%;
-  }
 }
 
 .hero-backdrop.is-hidden {
@@ -317,11 +312,12 @@
 
 .hero-modal {
     position: absolute;
-    top: calc(10%);
+    top: calc(50%);
     left: calc(50%);
     transform: translateX(-50%) translateY(-50%);
 
     width: 311px;
+    height: 95%;
     max-height: 994px;
     padding: 32px 24px;
 
@@ -335,13 +331,9 @@
 
 @media only screen and (min-width: 768px) {
     .hero-modal {
-        top: calc(50%);
-        left: calc(50%);
         width: 609px;
         max-height: 1058px;
-        padding: 48px auto;
-        overflow-y: hidden;
-        overflow-x: hidden;
+        padding: 48px;
     }
 }
 
@@ -412,14 +404,15 @@
 .hero-modal-list {
     list-style-type: none;
     width: 263px;
-    margin-bottom: 32px;
+    margin: 0 auto 32px;
+    flex-direction: column;
 }
 
 @media only screen and (min-width: 768px) {
     .hero-modal-list {
         width: 513px;
-        margin-bottom: 40px;
-        display: flex;
+        margin: 0 auto 40px;
+        flex-direction: row;
         justify-content: space-between;
     }
 }
@@ -494,6 +487,7 @@
 
 .hero-modal-form {
     width: 263px;
+    margin: 0 auto;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: flex-start;
@@ -517,6 +511,7 @@
 }
 
 .hero-modal-input {
+    width: 100%;
     height: 45px;
     padding: 14px 18px;
     font-weight: 400;
@@ -528,7 +523,6 @@
     color: rgba(64, 64, 64, 0.3);
     background-color: transparent;
     border: 1.5px solid rgba(17, 17, 17, 0.05);
-    filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
     border-radius: 8px;
 
 }
@@ -541,8 +535,12 @@
     }
 }
 
+.hero-modal-input:focus {
+    color: rgba(17, 17, 17, 1);
+    border: 1.5px solid var(--accent-bg-cl);
+}
+
 .hero-modal-name-wrapper {
-    width: 100%;
     margin-bottom: 18px;
     gap: 14px;
     flex-wrap: wrap;
@@ -554,10 +552,6 @@
     }
 }
 
-.hero-modal-name-input {
-    width: 263px;
-}
-
 @media only screen and (min-width: 768px) {
     .hero-modal-name-input {
         width: 246px;
@@ -565,13 +559,17 @@
 }
 
 .hero-phone-wrapper {
-    width: 100%;
     margin-bottom: 18px;
     border-radius: 8px;
     border: 1.5px solid rgba(17, 17, 17, 0.05);
-    filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
 
     align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-phone-wrapper {
+      width: 100%;
+  }
 }
 
 .hero-modal-outer-text {
@@ -615,7 +613,6 @@
 }
 
 .hero-modal-input-email {
-    width: 100%;
     margin-bottom: 18px;
 }
 
@@ -632,12 +629,17 @@
 }
 
 .hero-card-wrapper {
-    width: 100%;
     margin-bottom: 18px;
     border: 1.5px solid rgba(17, 17, 17, 0.05);
     border-radius: 8px;
 
     justify-content: space-between;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-card-wrapper {
+      width: 100%;
+  }
 }
 
 .hero-modal-card-input {
@@ -679,9 +681,8 @@
     }
 }
 
-.hero-modal-input:focus,
 .hero-modal-textarea:focus {
-    color: #111111;
+    color: rgba(17, 17, 17, 1);
     border: 1.5px solid var(--accent-bg-cl);
 }
 
