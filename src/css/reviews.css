@@ -23,6 +23,7 @@ margin-bottom: 49px;
   
     display: block;
     margin: auto;
+    margin-bottom: 72px;
     transform: background-color var(--cubic);
 }
 
@@ -30,13 +31,14 @@ margin-bottom: 49px;
     .reviews-btn {
         font-size: 18px;
         margin-top: 50px;
+        margin-bottom: 100px;
     }
 }
 
 @media only screen and (min-width: 1200px) {
     .reviews-btn {
         font-size: 18px;
-        
+        margin-bottom: 128px;
     }
 }
 
