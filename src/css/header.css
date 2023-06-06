@@ -265,7 +265,11 @@ height: 24px;
     stroke: rgba(17, 17, 17, 1);
 }
 
-.svg-header-black:hover,
-.svg-header-black:focus {
+.svg-header-black:hover
+{
+    stroke: rgba(253, 146, 34, 1);
+}
+
+.social-media-link:focus {
     stroke: rgba(253, 146, 34, 1);
 }
