@@ -329,7 +329,7 @@
 
 .hero-modal {
     position: absolute;
-    top: calc(15%);
+    top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 
@@ -341,6 +341,7 @@
     background-color: #FAFAFA;
     border-radius: 12px;
     overflow-y: scroll;
+    overflow-x: scroll;
 
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 150ms;
@@ -348,11 +349,18 @@
 
 @media only screen and (min-width: 768px) {
     .hero-modal {
-        top: calc((50% 529px) / 2);
         width: 609px;
         max-height: 1058px;
-        padding: 48px auto;
+        padding: 48px;
+        overflow-y: hidden;
         overflow-x: hidden;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .hero-modal {
+        width: 609px;
+        max-height: 1058px;
     }
 }
 
