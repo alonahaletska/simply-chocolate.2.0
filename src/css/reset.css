@@ -73,19 +73,19 @@ body {
 }
 
 .section {
-  padding-bottom: 72px;
-  background: #E2E2E2;
+  padding-top: 72px;
+  background: #fafafa;
 }
 
 @media only screen and (min-width: 768px) {
   .section {
-    padding-bottom: 100px;
+    padding-top: 100px;
   }
 }
 
 @media only screen and (min-width: 1200px) {
   .section {
-    padding-bottom: 128px;
+    padding-top: 128px;
   }
 }
 
