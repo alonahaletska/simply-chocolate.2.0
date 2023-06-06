@@ -7,7 +7,8 @@
 .technique-img {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
   border-radius: 15px;
-  height: 100%;
+  width: 335px;
+  height: 500px;
 }
 .technique-img-wrapper {
   position: relative;
@@ -61,12 +62,20 @@
   .technique-description-title {
     max-width: 350px;
   }
+  .technique-img {
+    width: 614px;
+    height: 400px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
   .technique-wrapper {
     display: flex;
     gap: 20px;
+  }
+  .technique-img {
+    width: 600px;
+    height: 400px;
   }
   .technique-img-wrapper {
     margin-bottom: 0;
