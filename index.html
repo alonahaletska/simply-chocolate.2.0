@@ -1289,7 +1289,27 @@ import './modal-review-outer.js'; -->
   <p class="subscribe-text">From the velvety texture to the rich and complex flavor, our New Chocolate is a true indulgence that will leave you craving more. Made with only the finest ingredients and handcrafted with the utmost care, each piece is a work of art that is sure to please.</p>
   <button class="subscribe-btn" type="button">Subscribe</button>
 </section>
-        
+        <!-- Subscribe-modal -->
+<div class="backdrop" data-modal>
+<div class="modal">
+    <button type="button" class="modal-close-btn" data-modal-close >
+        <svg class="modal-close-btn-icon" width="24" height="24">
+            <use href="../img/icons.svg#close-white"></use>
+        </svg>
+    </button>
+    <img class="modal-backgraund-img" src="../img/modal-subscribe/modal-sub_desk@1x.jpg" alt="bar-of-choclate">
+    <h2 class="modal-subscribe-text">Explore our<br><span class="modal-subscribe-text-part">new chocolate</span>
+ first!</h2>
+ <div class="modal-email-btn">
+<form class="modal-form">
+    <label class="modal-form-field">
+    <input type="email" name="user_email" class="modal-form-input" placeholder="Enter your email" pattern="^[a-zA-Z1-9]">
+</label>
+<button type="submit" class="modal-submit-btn">Submit</button>
+</form>
+</div>
+</div>
+</div>
     </main>
 
     <!-- Підключення футера  -->
