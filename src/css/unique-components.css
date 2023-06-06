@@ -1,16 +1,6 @@
-/*базові стилі видалити після змін у основному файлі*/
-@media only screen and (min-width: 1200px) {
-  .container {
-    max-width: 1136px;
-  }
-}
-.section-components {
-  background-color: #fafafa;
-}
-/*--------------------------------*/
-.section-components {
+/* .section-components {
   padding-top: 72px;
-}
+} */
 
 /*Tablet styles*/
 @media only screen and (min-width: 768px) {
