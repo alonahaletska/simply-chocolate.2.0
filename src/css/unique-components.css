@@ -115,6 +115,7 @@
   background-color: var(--main-bg-cl);
   border-radius: 15px;
   border: 1px solid var(--accent-bg-cl);
+  cursor: pointer;
 }
 
 /*Tablet styles*/
@@ -150,7 +151,7 @@
 
   transform: rotateY(0deg);
   transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  transition-duration: 0.5s;
+  transition-duration: 0.75s;
   transition-property: transform, opacity;
 }
 
@@ -189,6 +190,7 @@
   overflow: scroll;
   overflow-x: hidden;
   transform: rotateY(0deg);
+  transition-duration: 0.9s;
 }
 
 .overlay-card {
