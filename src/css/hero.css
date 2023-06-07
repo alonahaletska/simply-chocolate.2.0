@@ -233,7 +233,7 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 1.17;
-    width: 130px;
+    min-width: 130px;
 
     color: var(--secondary-txt-cl);
     text-decoration: none;
