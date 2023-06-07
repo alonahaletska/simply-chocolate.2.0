@@ -132,3 +132,25 @@
     width: 407px;
   }
 }
+
+.top-sellers-modal-outer-text {
+  width: 41px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #000000;
+  background-color: #FAFAFA;
+  border: none;
+  pointer-events: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .top-sellers-modal-outer-text {
+    font-size: 18px;
+    width: 47px;
+  }
+}
+
+.top-sellers-modal-outer-text:focus {
+  pointer-events: none;
+}

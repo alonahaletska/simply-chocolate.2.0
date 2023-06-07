@@ -1,1 +1,1 @@
-document.getElementById("outer_text_top_sellers").outerText = "+380";
+document.getElementById("outer_top_sellers").outerText = "+380";
