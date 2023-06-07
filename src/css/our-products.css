@@ -93,7 +93,8 @@
   border-radius: 100px;
 }
 
-.card-btn:hover .card-btn:focus {
+.card-btn:hover ,
+.card-btn:focus {
   background-color: var(--accent-txt-cl);
   color: var(--secondary-txt-cl);
 }
