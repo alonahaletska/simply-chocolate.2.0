@@ -52,12 +52,13 @@
         top: 0;
         right: 0;
         width: 70vw;
-        height: 100%;
         padding-top: 136px;
         padding-left: 32px;
         padding-bottom: 32px;
         padding-right: 50px;
 
+
+        height: 100vh;
         padding: 135px 20px 20px;
 
         background: rgba(30, 24, 35, 1);
@@ -176,6 +177,7 @@
         padding: 24px 0px 24px 0px;
     }
 }
+
 
 
 @media screen and (min-width: 1200px) {
