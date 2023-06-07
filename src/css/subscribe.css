@@ -85,12 +85,12 @@
 
   
     .subscribe-btn {
-       font-weight: 600;
+        font-weight: 600;
         width: 172px;
         font-size: 18px;
         line-height: 1.2;
     }
-    
+
     @media only screen and (min-width: 768px) {
       .subscribe {
         background-image: url(../img/Subscribe/Subcribe-d.jpg);
@@ -106,12 +106,6 @@
         width: 467px;
       }
   
-      .subscribe-btn {
-        width: 172px;
-        height: 50px;
-        font-size: 18px;
-        line-height: 1.2;
-      }
     }
     
       @media only screen and (min-width: 320px) and (max-width: 767px) {
@@ -124,9 +118,5 @@
           background-size: cover;
         }
     
-      
-        .subscribe-btn {
-            width: 128px
-            }
           }
             
