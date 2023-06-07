@@ -108,7 +108,8 @@
 
 @media only screen and (max-width: 767.9px) {
   .top-text-btn {
-    display: none;
+    width: 335px;
+    /* display: none; */
   }
 }
 @media only screen and (min-width: 768px) {
