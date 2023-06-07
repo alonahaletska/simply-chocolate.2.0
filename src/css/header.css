@@ -188,7 +188,7 @@
 
      .main-header {
             display: flex;
-            align-items: center;
+            align-items: baseline;
 
         }
 
@@ -196,6 +196,11 @@
         margin-right: 188px;
     }
 
+    .nav-header
+    {
+       display: flex;
+       align-items: center;
+    }
     .logo-header
     {
        width: 24px;
