@@ -160,11 +160,13 @@
 
 .logo-header {
     margin-left: 4px;
-    width: 21px;
-    height: 21px;
+    width: 18px;
+    height: 18px;
 }
 
 .logo-main {
+    font-size: 16px;
+    line-height: 1.1;
     font-weight: 700;
     letter-spacing: -0.03em;
     color: var(--main-txt-cl);
@@ -176,6 +178,21 @@
     .header {
         padding: 24px 0px 24px 0px;
     }
+
+        .logo-accent {
+            font-size: 18px;
+            line-height: 1.1;
+        }
+    
+        .logo-main {
+            font-size: 18px;
+            line-height: 1.1;
+        }
+
+        .logo-header {
+            width: 21px;
+            height: 21px;
+}
 }
 
 
@@ -198,21 +215,7 @@
        display: flex;
        align-items: center;
     }
-    .logo-header
-    {
-       width: 24px;
-       height: 24px;
-    }
 
-    .logo-accent {
-        font-size: 18px;
-        line-height: 1.1;
-    }
-
-    .logo-main {
-        font-size: 18px;
-        line-height: 1.1;
-    }
 
     .header-nav {
         display: flex;
@@ -263,4 +266,9 @@ height: 24px;
 .svg-header-black:hover,
 .svg-header-black:focus {
     stroke: rgba(253, 146, 34, 1);
+}
+
+.logo-accent:hover,
+.logo-accent:focus{
+    color: rgba(253, 146, 34, 1);
 }
