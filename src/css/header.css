@@ -272,3 +272,9 @@ height: 24px;
 .logo-accent:focus{
     color: rgba(253, 146, 34, 1);
 }
+
+.logo-main:hover,
+.logo-main:focus
+{
+   color: rgba(253, 146, 34, 1);
+}
