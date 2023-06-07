@@ -85,6 +85,11 @@
   background-color: var(--bg-cl-btn);
 }
 
+@media only screen and (max-width: 767.9px) {
+  .top-sellers-btn {
+    margin: 0 auto;
+  }
+}
 @media only screen and (min-width: 768px) {
   .top-sellers-btn {
     padding: 14px 40px;
@@ -108,7 +113,7 @@
 
 @media only screen and (max-width: 767.9px) {
   .top-text-btn {
-    width: 335px;
+    width: 100%;
     /* display: none; */
   }
 }
