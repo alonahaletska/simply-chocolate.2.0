@@ -113,7 +113,8 @@
 
 @media only screen and (max-width: 767.9px) {
   .top-text-btn {
-    width: 100%;
+    width: 335px;
+
     /* display: none; */
   }
 }
