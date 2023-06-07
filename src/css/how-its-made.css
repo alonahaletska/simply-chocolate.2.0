@@ -9,6 +9,7 @@
   border-radius: 15px;
   width: 335px;
   height: 500px;
+  border: 0;
 }
 @media only screen and (min-width: 768px) {
   .technique-video {
