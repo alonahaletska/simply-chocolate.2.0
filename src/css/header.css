@@ -4,6 +4,7 @@
     
     .mobile-burger-menu {
         margin-left: auto;
+        overflow: hidden;
     }
 
     .menu-toggle-burger {
