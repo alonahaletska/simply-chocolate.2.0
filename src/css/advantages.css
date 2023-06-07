@@ -105,15 +105,10 @@
 
 /*Desktop*/
 @media screen and (min-width: 1200px) {
-    .advantages-list {
-
-        padding: 50px 0 50px;
-
-    }
 
     .wrapper-advantages {
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     .advantages-list-item {
