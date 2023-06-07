@@ -47,7 +47,7 @@
         color: rgba(253, 146, 34, 1);
     }
 
-    .menu-container {
+   .menu-container {
         display: flex;
         flex-direction: column;
         position: fixed;
@@ -59,6 +59,9 @@
         padding-left: 32px;
         padding-bottom: 32px;
         padding-right: 50px;
+
+        padding: 135px 20px 20px;
+
         background: rgba(30, 24, 35, 1);
 
         z-index: 999;
@@ -119,10 +122,10 @@
 
 @media only screen and (min-width: 768px) {
     .menu-container {
+        width: 290px;
         padding-top: 156px;
         padding-left: 32px;
         padding-bottom: 24px;
-        padding-right: 85px;
     }
 }
 
@@ -130,8 +133,7 @@
 
 @media screen and (min-width:320px) {
     .header {
-        height: 70px;
-        padding: 25px 0px 20px 0px;
+        padding: 20px 0px 14px 0px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -167,9 +169,10 @@
 
 @media only screen and (min-width: 768px) {
     .header {
-        height: 80px;
+        padding: 24px 0px 24px 0px;
     }
 }
+
 
 @media screen and (min-width: 1200px) {
 
@@ -180,11 +183,11 @@
      .main-header {
             display: flex;
             align-items: center;
-            justify-content: center;
+
         }
 
     .header {
-        margin-right: auto;
+        margin-right: 188px;
     }
 
     .logo-header
@@ -203,15 +206,6 @@
         line-height: 1.1;
     }
 
-
-      .nav-item {
-        font-weight: 500;
-        line-height: 1.14;
-        display: flex;
-        align-items: center;
-        color: var(--main-txt-cl);
-    }
-
     .header-nav {
         display: flex;
         gap: 24px;
@@ -226,15 +220,14 @@
     }
 
     .nav-item {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(----dark-txt-cl);
-        text-decoration: none;
-        list-style: none;
-
-        display: block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    color: var(----dark-txt-cl);
+    text-decoration: none;
+    list-style: none;
+    display: block;
     }
 
     .nav-item:hover,
@@ -265,11 +258,7 @@ height: 24px;
     stroke: rgba(17, 17, 17, 1);
 }
 
-.svg-header-black:hover
-{
-    stroke: rgba(253, 146, 34, 1);
-}
-
-.social-media-link:focus {
+.svg-header-black:hover,
+.svg-header-black:focus {
     stroke: rgba(253, 146, 34, 1);
 }
