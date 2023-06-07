@@ -4,24 +4,42 @@
 .technique-title-accent {
   color: var(--accent-txt-cl);
 }
-.technique-img {
+.technique-video {
+  /* display:none; */
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
   border-radius: 15px;
-  height: 100%;
+  width: 335px;
+  height: 500px;
+}
+@media only screen and (min-width: 768px) {
+  .technique-video {
+    width: 614px;
+    height: 400px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .technique-video {
+    width: 600px;
+    height: 400px;
+  }
 }
 .technique-img-wrapper {
   position: relative;
   margin-bottom: 20px;
   width: 100%;
 }
-.icon-play {
+.play-btn {
   position: absolute;
   display: block;
-  fill: var(--secondary-txt-cl);
+  background-color: transparent;
+  border: none;
   left: 50%;
   top: 50%;
   z-index: 2;
   transform: translateX(-50%) translateY(-50%);
+}
+.icon-play{
+  fill: var(--secondary-txt-cl);
 }
 .technique-description {
   background-color: var(--main-bg-cl);
@@ -34,7 +52,7 @@
   line-height: 1.33;
   margin-bottom: 20px;
 }
-.technique-description-item{
+.technique-description-item {
   position: relative;
 }
 .technique-description-text::before {
@@ -49,7 +67,7 @@
   left: 0px;
   top: 5px;
 }
-.technique-description-text{
+.technique-description-text {
   margin-left: 16px;
 }
 .technique-description-item:not(:last-child) {
@@ -72,7 +90,7 @@
   }
 }
 @media only screen and (min-width: 1200px) {
-  .technique-container{
+  .technique-container {
     padding: 0 32px;
   }
   .technique-wrapper {
