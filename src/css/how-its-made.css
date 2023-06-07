@@ -7,10 +7,17 @@
 .technique-video {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
   border-radius: 15px;
-  width: 335px;
+  width: 280px;
   height: 500px;
   border: 0;
 }
+
+@media only screen and (min-width: 375px) {
+  .technique-video {
+    width: 335px;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .technique-video {
     width: 614px;
