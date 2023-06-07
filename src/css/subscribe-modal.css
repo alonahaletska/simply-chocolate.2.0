@@ -30,8 +30,6 @@
   }
 }
 
-
-
 .backdrop.is-hidden {
     opacity: 0;
     visibility: hidden;
@@ -45,16 +43,23 @@
     background-size: cover;
 }
 .modal-backgraund-wrapper {
-    width: auto;
-    border-radius: 15px;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
     overflow: hidden;
 }
+@media only screen and (min-width: 768px) {
+.modal-backgraund-img{
+    width: 100%;
+    height: 196px;
+    overflow: hidden;
+  }
+}
+
 .modal-submit-btn {
     display: block;
     margin: 0 auto;
     padding: 14px 22px;
     width: 100px;
-
     text-align: center;
     background: var(--accent-bg-cl);
     border-radius: 100px;
@@ -70,6 +75,18 @@
     bottom: 32px;
     right: 24px;
     z-index: 1;
+}
+.modal-submit-btn:hover,
+.modal-submit-btn:focus {
+    background-color: #FCF1E0;
+    color: #FD9222;
+}
+@media only screen and (min-width: 768px) {
+.modal-submit-btn{
+    bottom: 40px;
+    right: 40px;
+    width: 137px;
+  }
 }
 
 .modal-subscribe-text {
@@ -109,6 +126,7 @@
         right: 24px;
         width: 28px;
         height: 28px;
+
     }
 }
 
@@ -147,6 +165,8 @@
 @media only screen and (min-width: 768px) {
     .modal-form-input {
         width: 313px;
+        margin-bottom: 40px;
+        margin-left: 40px;
     }
 }
 
