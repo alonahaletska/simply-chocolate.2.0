@@ -150,6 +150,9 @@ letter-spacing: -0.03em;
         font-size: 14px;
         margin-top: 32px;
     }
+
+    .reviews-text {
+        width: 280px;}
 }
 
 /*Mobile*/
