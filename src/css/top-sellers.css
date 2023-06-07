@@ -85,11 +85,6 @@
   background-color: var(--bg-cl-btn);
 }
 
-@media only screen and (max-width: 767.9px) {
-  .top-sellers-btn {
-    margin: 0 auto;
-  }
-}
 @media only screen and (min-width: 768px) {
   .top-sellers-btn {
     padding: 14px 40px;
@@ -102,7 +97,7 @@
 }
 .top-text-btn {
   display: inline-flex;
-  width: 704px;
+  width: 100%;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -113,7 +108,7 @@
 
 @media only screen and (max-width: 767.9px) {
   .top-text-btn {
-    width: 335px;
+    /* width: 335px; */
 
     /* display: none; */
   }
@@ -139,7 +134,7 @@
   font-size: 14px;
   line-height: 1.2;
   color: #000000;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   border: none;
   pointer-events: none;
 }
