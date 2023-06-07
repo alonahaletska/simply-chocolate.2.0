@@ -5,7 +5,6 @@
   color: var(--accent-txt-cl);
 }
 .technique-video {
-  /* display:none; */
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
   border-radius: 15px;
   width: 335px;
@@ -23,24 +22,11 @@
     height: 400px;
   }
 }
-.technique-img-wrapper {
-  position: relative;
+.technique-video-wrapper {
   margin-bottom: 20px;
   width: 100%;
 }
-.play-btn {
-  position: absolute;
-  display: block;
-  background-color: transparent;
-  border: none;
-  left: 50%;
-  top: 50%;
-  z-index: 2;
-  transform: translateX(-50%) translateY(-50%);
-}
-.icon-play{
-  fill: var(--secondary-txt-cl);
-}
+
 .technique-description {
   background-color: var(--main-bg-cl);
   border-radius: 15px;
@@ -97,7 +83,7 @@
     display: flex;
     gap: 20px;
   }
-  .technique-img-wrapper {
+  .technique-video-wrapper {
     margin-bottom: 0;
   }
 }
