@@ -17,5 +17,6 @@ import './our-products-swiper.js';
 import 'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js';
 // Підключення Top selers
 import './modal-top-seler.js'
+import './outer-text-top-sellers.js';
 // Підключення модального вікна subscribe
 import './subscribe-modal.js'
