@@ -43,8 +43,7 @@
  @media only screen and (max-width: 325px) 
      {
      .subscribe-text {
-       font-size: 12px;
-       width: 300px;}
+       width: 280px;}
    }
  
   .subscribe-btn
