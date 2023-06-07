@@ -83,3 +83,21 @@
     margin-bottom: 0;
   }
 }
+
+.technique-image {
+  width: 335px;
+  height: 500px;
+  border-radius: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .technique-image {
+    width: 614px;
+    height: 400px;
+  }
+}
+
+.technique-image {
+  width: 600px;
+  height: 400px;
+}
