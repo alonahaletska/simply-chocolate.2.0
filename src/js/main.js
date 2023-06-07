@@ -5,6 +5,7 @@ import './mobile-menu.js';
 // підключення buy now
 import './hero-form.js';
 import './hero-modal.js';
+import './sellers.js';
 import './hero-outer.js';
 // Підключення reviews
 import './modal-review-form.js';
